@@ -70,6 +70,7 @@ cmake-build-debug/
 
 # IntelliJ
 out/
+design-patterns.iml
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
