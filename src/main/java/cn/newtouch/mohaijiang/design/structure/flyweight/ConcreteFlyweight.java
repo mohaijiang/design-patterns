@@ -6,12 +6,12 @@ import lombok.AllArgsConstructor;
  * @author mohaijiang on 17-9-19
  */
 @AllArgsConstructor
-public class ConcreteFlywight implements Flywight{
+public class ConcreteFlyweight implements Flyweight {
 
     private String key;
 
     @Override
-    public void opreation(String extrinsicState) {
+    public void operation(String extrinsicState) {
         System.out.println("k :" +key+"\textrinsicState:"+extrinsicState);
     }
 }

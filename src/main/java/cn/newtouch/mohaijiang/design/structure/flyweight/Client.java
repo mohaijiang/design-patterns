@@ -6,7 +6,7 @@ package cn.newtouch.mohaijiang.design.structure.flyweight;
 public class Client {
 
     public static void main(String[] args) {
-        Flywight flywight = FlywightFactory.getInstance().getFlywight("a");
-        flywight.opreation("b");
+        Flyweight flyweight = FlyweightFactory.getInstance().getFlywight("a");
+        flyweight.operation("b");
     }
 }
